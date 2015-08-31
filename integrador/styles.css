@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+	section{
+		height: 75vh;
+	}
+	footer{
+		width: 100%;
+		background: black;
+		color: white;
+		height: 100px;
+		  position: absolute;
+  bottom: 0;
+	}
+
+	form{
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 20px;
+
+	}
+
+	input{
+		max-width: 400px;
+		width: 90%; 
+		border-radius: 5px;
+	}
+
+	button{
+		background: black;
+		color: white;
+		border: 0;
+		padding:10 20px;
+		border-radius: 4px;
+		max-width: 400px;
+		width: 100%;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+
+	section{
+
+		width: 45%;
+		margin-right: 5%;
+		float: left;
+	}
+
+.clear{
+	clear: both;
+}

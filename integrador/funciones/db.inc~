@@ -1,0 +1,11 @@
+<?php
+function conectar(){
+$server = "mysql10.000webhost.com";
+$db = "a2686492_eduIT";
+$usr = "a2686492_eduIT";
+$pass = "unafacil11";
+$conn = mysql_connect("mysql10.000webhost.com", $usr, $pass);
+	mysql_select_db($db);
+	mysql_set_charset('utf8',$conn);	
+}
+?>
